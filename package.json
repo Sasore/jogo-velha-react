@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "surge ./public --domain jogo-da-velha-react.soare.surge.sh",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  }
+}
